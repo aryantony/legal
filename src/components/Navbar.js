@@ -64,9 +64,7 @@ function Navbar(props) {
   const urlObject = new URL(currentUrl);
   const baseUrl = urlObject.origin;
 
-  useEffect(() => {
-   navigate("/")
-  }, []);
+
   return (
     <>
        {/* <!-- ======= Header ======= --> */}
