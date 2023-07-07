@@ -1,9 +1,10 @@
-import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
+import React, {useState,useEffect} from 'react'
+import { Link ,Navigate, useNavigate} from 'react-router-dom'
 import logoOfWebsite from "../assets/img/logoweb.jpg";
-
+import lg from "../assets/img/LegalMatch-1 (1)_adobe_express.jpg"
 
 function Navbar(props) {
+  const navigate=useNavigate();
     const [activeNavbar, setActiveNavbar]=useState("Home");
     const {langType,setLangType}=props;
     const homeClicked=()=>{
@@ -59,6 +60,13 @@ function Navbar(props) {
   const hnadlelangChange=()=>{
     setLangType(!langType)
   }
+    const currentUrl = window.location.href;
+  const urlObject = new URL(currentUrl);
+  const baseUrl = urlObject.origin;
+
+  useEffect(() => {
+   navigate("/")
+  }, []);
   return (
     <>
        {/* <!-- ======= Header ======= --> */}
@@ -67,7 +75,8 @@ function Navbar(props) {
 
       <Link to="/" className="NavbarLogo">
        
-       <img src={logoOfWebsite} alt=""/><span className="webLogoName">LegalMatch</span>
+       {/* <img src={logoOfWebsite} alt=""/><span className="webLogoName">LegalMatch</span> */}
+      <span className="webLogoName"> <img src={lg} alt=""/></span>
       
       </Link>
 

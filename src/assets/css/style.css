@@ -52,12 +52,18 @@
     font-family: auto;
     position: absolute;
     bottom: -8px;
+    position: relative;
 }
 .NavbarLogo{
     position: relative;
 }
 .NavbarLogo img{
-    width: 50px;
+  position: absolute;
+  left: -113px;
+  top: -43px;
+  height: 103px;
+  width: 259px;
+  object-fit: cover;
 
 }
 .stretched-link{
@@ -105,6 +111,12 @@ height: 340px;
             padding-left: 0px;
             margin-top: 15px;
         }
+        .NavbarLogo img {
+          position: absolute;
+          left: -44px;
+          top: -144px;
+          width: 304px;
+      }
 }
 .langcol{
     border: 1px solid #a99595;
@@ -730,3 +742,15 @@ position: unset!important;
 }
 
 
+@media (max-width: 1200px) {
+
+      .NavbarLogo img {
+        position: absolute;
+        left: -44px;
+        top: -38px;
+        width: 222px;
+        height: 97px;
+        z-index: 0;
+        object-fit: cover;
+    }
+}

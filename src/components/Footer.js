@@ -45,10 +45,10 @@ function Footer(props) {
                             <h4>{langType?"Contact Us":"Kontakt Oss"}</h4>
                             <p>
                                 A-10 Adam Street <br />
-                                Andhere East, NY 535022<br />
-                                Banglore <br /><br />
+                                Vestland, NY 535022<br />
+                                Norway <br /><br />
                                 <strong>{langType?"Phone":'Telefoner'}:</strong> +1 5589 55488 55<br />
-                                <strong>{langType?"Email":'E-pos'}:</strong> legalMatch@google.com<br />
+                                <strong>{langType?"Email":'E-pos'}:</strong> company@legalmatch.no<br />
                             </p>
 
                         </div>

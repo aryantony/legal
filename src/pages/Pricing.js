@@ -17,7 +17,7 @@ function Pricing(props) {
               <p data-aos="fade-up" data-aos-delay="400" className='homeh2'>{langType?'Kindly contact to the following to know more and colloborate':'Vennligst ta kontakt med følgende for å få mer informasjon og samarbeide.'}</p>
               <div data-aos="fade-up" className='PricingContactColur'>
               <strong>{langType?"Phone":"Telefon"}:</strong> +1 5589 55488 55<br />
-        <strong>{langType?"Email":"E-post"}:</strong> legalMatch@google.com<br />
+        <strong>{langType?"Email":"E-post"}:</strong> company@legalmatch.no<br />
               </div>
             </div>
 
