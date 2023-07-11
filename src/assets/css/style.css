@@ -753,4 +753,68 @@ position: unset!important;
         z-index: 0;
         object-fit: cover;
     }
+    .wor{
+      position: absolute;
+       left: 72px;
+    }
+}
+.contactSect{
+  padding: 61px;
+  margin-top: -168px;
+  margin-bottom: 17px;
+}
+
+.sendmsg button{
+  background: var(--color-primary);
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 5px;
+    width: 100%;
+}
+
+@media (max-width: 992px){
+  .contactSect {
+    padding: 13px;
+    margin-top: -140px;
+    margin-bottom: 62px;
+}
+}
+.engImg{
+  width: 23px;
+  height: 13px;
+  margin-right: 8px;
+  object-fit: cover;
+}
+@media (max-width: 1280px) {
+
+
+.wor{
+  position: absolute;
+   left: 72px;
+}
+}
+.arrowup{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+.arrowup {
+  display: none;
+  position: absolute;
+  left: 67%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.x .arrowup {
+  display: block;
+  opacity: 0;
+}
+
+.x:hover .arrowup {
+  opacity: 1;
+  /* transform: translateX(67%); */
 }
