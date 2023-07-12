@@ -818,3 +818,10 @@ position: unset!important;
   opacity: 1;
   /* transform: translateX(67%); */
 }
+
+
+.contact .php-email-form {
+  width: 100%;
+  margin-top: -83px;
+  background: #fff;
+}

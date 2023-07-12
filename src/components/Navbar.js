@@ -11,7 +11,7 @@ function Navbar(props) {
     const {langType,setLangType}=props;
     const homeClicked=()=>{
         setActiveNavbar("Home");
-        if(window.innerWidth<1278)
+        if(window.innerWidth<1285)
         {
             setmobclick(!mobclick);
         }
@@ -19,42 +19,42 @@ function Navbar(props) {
     }
     const aboutClicked=()=>{
         setActiveNavbar("About");
-        if(window.innerWidth<1278)
+        if(window.innerWidth<1285)
         {
             setmobclick(!mobclick);
         }
     }
     const servicesClicked=()=>{
         setActiveNavbar("Services");
-        if(window.innerWidth<1278)
+        if(window.innerWidth<1285)
         {
             setmobclick(!mobclick);
         }
     }
     const pricingClicked=()=>{
         setActiveNavbar("Pricing");
-        if(window.innerWidth<1278)
+        if(window.innerWidth<1285)
         {
             setmobclick(!mobclick);
         }
     }
     const contactClicked=()=>{
         setActiveNavbar("Contact");
-        if(window.innerWidth<1278)
+        if(window.innerWidth<1285)
         {
             setmobclick(!mobclick);
         }
     }
     const blogClicked=()=>{
       setActiveNavbar("Blog");
-      if(window.innerWidth<1278)
+      if(window.innerWidth<1285)
         {
             setmobclick(!mobclick);
         }
   }
   const [mobclick,setmobclick]=useState(true);
   const tooglemobClick=()=>{
-    if(window.innerWidth<1278)
+    if(window.innerWidth<1285)
     {
         setmobclick(!mobclick);
     }
