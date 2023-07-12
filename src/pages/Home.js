@@ -172,9 +172,9 @@
 
 import React from 'react'
 import HomeImage from "../assets/img/pexels-marek-levak-2265482.jpg"
-import serv1 from "../assets/img/serv_acuracy.jpg"
-import serv2 from "../assets/img/serv_eth.jpg";
-import serv3 from "../assets/img/serv_trans.jpg"
+import serv1 from "../assets/img/ACCURACY AND RELIABILITY.jpg"
+import serv2 from "../assets/img/ETHICAL AND TRANSPARENT.jpg";
+import serv3 from "../assets/img/EFFICIENCY AND TIMESAVING.jpg"
 import w1 from "../assets/img/w1.jpg"
 import w2 from "../assets/img/w2.jpg"
 import w3 from "../assets/img/w3.jpg"
@@ -239,7 +239,7 @@ Supreme Court judgments with ease and efficiency </p>
             <div className="col-lg-4 col-md-6"  >
               <div className="card">
                 <div className="card-img">
-                  <img src={serv2} alt="" className="img-fluid" />
+                  <img src={serv2} alt="" className="img-fluid serv2" />
                 </div>
                 <h3><span className="stretched-link">{langType?'Ethical and Transparent':'Effektivitet og tidsbesparelse'}</span></h3>
                 <p>{langType?' We uphold ethical standards and transparency in our products and services. We ensure that our data sources, algorithms, and processes are transparent, and we handle user data with utmost care and in compliance with privacy and security regulations.':'Våre produkter er designet for å effektivisere rettskildesøk, slik at brukerne raskt ogeffektivt kan finne den informasjonen de trenger, og dermed spare verdifull tid oginnsats.'}</p>
@@ -251,7 +251,7 @@ Supreme Court judgments with ease and efficiency </p>
             <div className="col-lg-4 col-md-6"  >
               <div className="card">
                 <div className="card-img">
-                  <img src={serv3} alt="" className="img-fluid" />
+                  <img src={serv3} alt="" className="img-fluid serv3" />
                 </div>
                 <h3><span className="stretched-link">{langType?'Efficiency and Time-Saving':'Etiske og gjennomsiktige'}</span></h3>
                 <p>{langType?'We understand the importance of time for legal professionals and individuals dealing with legal matters. Our products are designed to streamline the legal research process, enabling users to find the information they need quickly and efficiently, saving them valuable time and effort.':'Vi er dedikerte til å ivareta etiske standarder og åpenhet i våre produkter og tjenester. Visørger for at våre datakilder, algoritmer og prosesser er transparente, og vi behandler brukerdata med største forsiktighet og i samsvar med personvern- og sikkerhetsregler.'}</p>

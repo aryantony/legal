@@ -97,8 +97,12 @@
 .infocontact{
     padding-left: 20px;
 }
-.contact{
+.contact {
     margin-top: -143px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* tyle={{border: "0",width: "70%",height: "340px"}} */
 .mapcontact{
@@ -851,6 +855,7 @@ position: unset!important;
 
 .contact .php-email-form {
   width: 100%;
+  width: 400px;
   margin-top: -83px;
   background: #fff;
   /* border: 1px solid rebeccapurple; */
@@ -861,4 +866,27 @@ position: unset!important;
 
 .pdff{
   padding: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+@media (max-width: 500px) {
+
+.contact .php-email-form {
+width: 317px;
+}
+
+}
+@media (max-width: 350px) {
+
+  .contact .php-email-form {
+  width: 100%;
+  }
+  
+  }
+  .serv2{
+    height: 252px;
+  }
+  .serv3{
+    height: 252px;
+  }
