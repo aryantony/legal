@@ -90,7 +90,8 @@ function Contact(props) {
    
     
       <section id="contact" className="contact">
-      <div className="col-lg-12">
+      <div className="col-lg-12 pdff">
+          <div className="formdd">
             <form  method="post" role="form" className="php-email-form contactSect">
              
                 <div className="form-group mt-3">
@@ -107,6 +108,7 @@ function Contact(props) {
              
               <div className="text-center sendmsg mt-3 form-group"><button type="submit">Send Message</button></div>
             </form>
+          </div>
           </div>
         <div className="container" >
 
