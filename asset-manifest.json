@@ -1,18 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.379e3831.css",
-    "main.js": "/static/js/main.7eaa07d0.js",
+    "main.css": "/static/css/main.5963ecd3.css",
+    "main.js": "/static/js/main.a9e790a6.js",
     "static/js/787.ec70eaa9.chunk.js": "/static/js/787.ec70eaa9.chunk.js",
     "static/media/abProfes.jpg": "/static/media/abProfes.905e4a80030c7843c6e6.jpg",
-    "static/media/serv_eth.jpg": "/static/media/serv_eth.3c88cbcebfe748cdc033.jpg",
     "static/media/s1.jpg": "/static/media/s1.3e6a98606ec1cf672af3.jpg",
-    "static/media/serv_trans.jpg": "/static/media/serv_trans.5c8784a4893be9d74289.jpg",
     "static/media/b3.jpg": "/static/media/b3.e15964f50022bace62d6.jpg",
     "static/media/aboutFront.jpg": "/static/media/aboutFront.c3825b2192e328695f42.jpg",
     "static/media/s2.jpg": "/static/media/s2.a3d8fc6e67922bef3cf7.jpg",
     "static/media/b1.jpg": "/static/media/b1.77306dd58a81c2fe4121.jpg",
     "static/media/pexels-marek-levak-2265482.jpg": "/static/media/pexels-marek-levak-2265482.a50f1891c4bfd0e6297b.jpg",
-    "static/media/serv_acuracy.jpg": "/static/media/serv_acuracy.58484fed3eabe881eb3a.jpg",
     "static/media/logoweb.jpg": "/static/media/logoweb.72c371c7ca4337c561fa.jpg",
     "static/media/b2.jpg": "/static/media/b2.870de03f1ef86fce69cf.jpg",
     "static/media/abResearch.jpg": "/static/media/abResearch.df66bd02f1e33ba1005d.jpg",
@@ -22,17 +19,20 @@
     "static/media/hero-bg.png": "/static/media/hero-bg.ab47d1a8d371996f1a5b.png",
     "static/media/s3.jpg": "/static/media/s3.a6460f8039866dba6e37.jpg",
     "static/media/s7.jpg": "/static/media/s7.fdeaa030adfd2d79aec4.jpg",
+    "static/media/EFFICIENCY AND TIMESAVING.jpg": "/static/media/EFFICIENCY AND TIMESAVING.7257dbda797f39af3f94.jpg",
+    "static/media/ETHICAL AND TRANSPARENT.jpg": "/static/media/ETHICAL AND TRANSPARENT.fe8f7e05ae726520d43c.jpg",
+    "static/media/ACCURACY AND RELIABILITY.jpg": "/static/media/ACCURACY AND RELIABILITY.3cc5eadf80691401c623.jpg",
     "static/media/eng.jpg": "/static/media/eng.97e1666c171b1d0b8978.jpg",
     "static/media/pricing-business.png": "/static/media/pricing-business.6bb84a829a0adb27bda9.png",
     "static/media/w1.jpg": "/static/media/w1.2cb6b370c58e92dce919.jpg",
     "index.html": "/index.html",
     "static/media/uparr.svg": "/static/media/uparr.6d2bfe4c5d59e8dc847ccc0de855099e.svg",
-    "main.379e3831.css.map": "/static/css/main.379e3831.css.map",
-    "main.7eaa07d0.js.map": "/static/js/main.7eaa07d0.js.map",
+    "main.5963ecd3.css.map": "/static/css/main.5963ecd3.css.map",
+    "main.a9e790a6.js.map": "/static/js/main.a9e790a6.js.map",
     "787.ec70eaa9.chunk.js.map": "/static/js/787.ec70eaa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.379e3831.css",
-    "static/js/main.7eaa07d0.js"
+    "static/css/main.5963ecd3.css",
+    "static/js/main.a9e790a6.js"
   ]
 }
