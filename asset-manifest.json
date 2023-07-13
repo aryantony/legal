@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.5963ecd3.css",
-    "main.js": "/static/js/main.a9e790a6.js",
+    "main.css": "/static/css/main.058012aa.css",
+    "main.js": "/static/js/main.206f804b.js",
     "static/js/787.ec70eaa9.chunk.js": "/static/js/787.ec70eaa9.chunk.js",
     "static/media/abProfes.jpg": "/static/media/abProfes.905e4a80030c7843c6e6.jpg",
     "static/media/s1.jpg": "/static/media/s1.3e6a98606ec1cf672af3.jpg",
     "static/media/b3.jpg": "/static/media/b3.e15964f50022bace62d6.jpg",
     "static/media/aboutFront.jpg": "/static/media/aboutFront.c3825b2192e328695f42.jpg",
+    "static/media/TAILORED RESULTS.jpg": "/static/media/TAILORED RESULTS.90d8d3d7e85cb489d85b.jpg",
     "static/media/s2.jpg": "/static/media/s2.a3d8fc6e67922bef3cf7.jpg",
     "static/media/b1.jpg": "/static/media/b1.77306dd58a81c2fe4121.jpg",
     "static/media/pexels-marek-levak-2265482.jpg": "/static/media/pexels-marek-levak-2265482.a50f1891c4bfd0e6297b.jpg",
@@ -17,6 +18,8 @@
     "static/media/cta-bg.jpg": "/static/media/cta-bg.240b860f19c4b1e12004.jpg",
     "static/media/testimonials-bg.jpg": "/static/media/testimonials-bg.9982516b4a666e742715.jpg",
     "static/media/hero-bg.png": "/static/media/hero-bg.ab47d1a8d371996f1a5b.png",
+    "static/media/ADVANCED ANALYSIS.jpg": "/static/media/ADVANCED ANALYSIS.2956c2238e5a6c25d2ba.jpg",
+    "static/media/TIME-SAVING EFFICIENCY.jpg": "/static/media/TIME-SAVING EFFICIENCY.077c74d20b902f0db881.jpg",
     "static/media/s3.jpg": "/static/media/s3.a6460f8039866dba6e37.jpg",
     "static/media/s7.jpg": "/static/media/s7.fdeaa030adfd2d79aec4.jpg",
     "static/media/EFFICIENCY AND TIMESAVING.jpg": "/static/media/EFFICIENCY AND TIMESAVING.7257dbda797f39af3f94.jpg",
@@ -24,15 +27,14 @@
     "static/media/ACCURACY AND RELIABILITY.jpg": "/static/media/ACCURACY AND RELIABILITY.3cc5eadf80691401c623.jpg",
     "static/media/eng.jpg": "/static/media/eng.97e1666c171b1d0b8978.jpg",
     "static/media/pricing-business.png": "/static/media/pricing-business.6bb84a829a0adb27bda9.png",
-    "static/media/w1.jpg": "/static/media/w1.2cb6b370c58e92dce919.jpg",
     "index.html": "/index.html",
     "static/media/uparr.svg": "/static/media/uparr.6d2bfe4c5d59e8dc847ccc0de855099e.svg",
-    "main.5963ecd3.css.map": "/static/css/main.5963ecd3.css.map",
-    "main.a9e790a6.js.map": "/static/js/main.a9e790a6.js.map",
+    "main.058012aa.css.map": "/static/css/main.058012aa.css.map",
+    "main.206f804b.js.map": "/static/js/main.206f804b.js.map",
     "787.ec70eaa9.chunk.js.map": "/static/js/787.ec70eaa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5963ecd3.css",
-    "static/js/main.a9e790a6.js"
+    "static/css/main.058012aa.css",
+    "static/js/main.206f804b.js"
   ]
 }
