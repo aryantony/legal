@@ -175,9 +175,9 @@ import HomeImage from "../assets/img/pexels-marek-levak-2265482.jpg"
 import serv1 from "../assets/img/ACCURACY AND RELIABILITY.jpg"
 import serv2 from "../assets/img/ETHICAL AND TRANSPARENT.jpg";
 import serv3 from "../assets/img/EFFICIENCY AND TIMESAVING.jpg"
-import w1 from "../assets/img/w1.jpg"
-import w2 from "../assets/img/w2.jpg"
-import w3 from "../assets/img/w3.jpg"
+import w1 from "../assets/img/ADVANCED ANALYSIS.jpg"
+import w2 from "../assets/img/TAILORED RESULTS.jpg"
+import w3 from "../assets/img/TIME-SAVING EFFICIENCY.jpg"
 import { Link } from 'react-router-dom';
 function Home(props) {
   const {langType,setLangType}=props;
@@ -289,7 +289,7 @@ Supreme Court judgments with ease and efficiency </p>
             <div className="col-lg-4 col-md-6"  >
               <div className="card">
                 <div className="card-img">
-                  <img src={w1} alt="" className="img-fluid" />
+                  <img src={w1} alt="" className="img-fluid workhom" />
                 </div>
                 <h3><span className="stretched-link">{langType?'Advanced Analysis':'Avansert analyse'}</span></h3>
                 <p>{langType?'LegalMatch utilizes state-of-the-art language models and natural language processing to analyze the details of your case, extracting key information and understanding its nuances.':'LegalMatch bruker avanserte språkmodeller og naturlig språkbehandling for åanalysere detaljene i saken din, trekke ut nøkkelinformasjon og forstå de ulikenyansene' } </p>
@@ -301,7 +301,7 @@ Supreme Court judgments with ease and efficiency </p>
             <div className="col-lg-4 col-md-6"  >
               <div className="card">
                 <div className="card-img">
-                  <img src={w2} alt="" className="img-fluid" />
+                  <img src={w2} alt="" className="img-fluid workhom" />
                 </div>
                 <h3><span className="stretched-link">{langType?'Tailored Results':'Tilpassede resultater:'}</span></h3>
                 <p> {langType?'Based on the analysis, LegalMatch generates a personalized list of applicable laws and regulations specific to your case, ensuring you have access to the most relevant legal information.':'Basert på analysen genererer LegalMatch en personlig liste over relevante loverog forskrifter som er relevante for saken din.'}
@@ -314,7 +314,7 @@ Supreme Court judgments with ease and efficiency </p>
             <div className="col-lg-4 col-md-6" >
               <div className="card">
                 <div className="card-img">
-                  <img src={w3} alt="" className="img-fluid" />
+                  <img src={w3} alt="" className="img-fluid workhom" />
                 </div>
                 <h3><span className="stretched-link">{langType?'Time-Saving Efficiency':'Tidsbesparende effektivitet:'}</span></h3>
                 <p>{langType?'By automating the research process, LegalMatch significantly reduces the time spent on manual research, providing quick and efficient access to the legal information you need, including summaries of relevant Supreme Court judgments':'Ved å automatisere rettskildesøk sparer LegalMatch tid og gir rask og effektiv tilgang til den juridiske informasjonen du trenger, inkludert sammendrag av relevante rettskilder.'}.</p>
