@@ -18,7 +18,7 @@
 //         <div className="container" data-aos="fade-up">
 
 //           <div className='contactFirm'>
-//           {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987139.5998435628!2d3.5668872821155992!3d60.89710402245818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x461639cb73ab5ebf%3A0xd4243f75d5b023b!2sVestland%2C%20Norway!5e0!3m2!1sen!2sin!4v1688725840530!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+//           {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987139.5998435628!2d3.5668872821155992!3d60.89710402245818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x461639cb73ab5ebf%3A0xd4243f75d5b023b!2sVestland%2C%20Norway!5e0!3m2!1sen!2sin!4v1688725840530!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen=""  referrerpolicy="no-referrer-when-downgrade"></iframe> */}
 //             <iframe className='mapcontact' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987139.5998435628!2d3.5668872821155992!3d60.89710402245818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x461639cb73ab5ebf%3A0xd4243f75d5b023b!2sVestland%2C%20Norway!5e0!3m2!1sen!2sin!4v1688725840530!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
 //             <div className="row gy-12 infocontact">
 
@@ -113,8 +113,8 @@ function Contact(props) {
         <div className="container" >
 
           <div className='contactFirm'>
-          {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987139.5998435628!2d3.5668872821155992!3d60.89710402245818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x461639cb73ab5ebf%3A0xd4243f75d5b023b!2sVestland%2C%20Norway!5e0!3m2!1sen!2sin!4v1688725840530!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
-            <iframe className='mapcontact' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987139.5998435628!2d3.5668872821155992!3d60.89710402245818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x461639cb73ab5ebf%3A0xd4243f75d5b023b!2sVestland%2C%20Norway!5e0!3m2!1sen!2sin!4v1688725840530!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
+          {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987139.5998435628!2d3.5668872821155992!3d60.89710402245818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x461639cb73ab5ebf%3A0xd4243f75d5b023b!2sVestland%2C%20Norway!5e0!3m2!1sen!2sin!4v1688725840530!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen=""  referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+            <iframe  className='mapcontact' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987139.5998435628!2d3.5668872821155992!3d60.89710402245818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x461639cb73ab5ebf%3A0xd4243f75d5b023b!2sVestland%2C%20Norway!5e0!3m2!1sen!2sin!4v1688725840530!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
             <div className="row gy-12 infocontact">
 
               <div className="col-lg-12">

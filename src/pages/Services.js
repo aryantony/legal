@@ -64,7 +64,7 @@
 //               {serv===1&&(<article className="entry">
 
 //                 <div className="entry-img">
-//                   <img src={s1} alt="" className="img-fluid" />
+//                   <img  src={s1} alt="" className="img-fluid" />
 //                 </div>
 
 //                 {/* <h2 className="entry-title">
@@ -95,7 +95,7 @@
 //               {serv===2&&(<article className="entry">
 
 //                 <div className="entry-img">
-//                   <img src={s2} alt="" className="img-fluid" />
+//                   <img  src={s2} alt="" className="img-fluid" />
 //                 </div>
 
 //                 {/* <h2 className="entry-title">
@@ -129,7 +129,7 @@
 //               {serv===3&&(<article className="entry">
 
 //                 <div className="entry-img">
-//                   <img src={s3} alt="" className="img-fluid" />
+//                   <img  src={s3} alt="" className="img-fluid" />
 //                 </div>
 
 //                 <h3><span className="stretched-link">{langType? 'Case Explorer':'Saksoversikt'}</span></h3>
@@ -160,7 +160,7 @@
 //               {serv===4&&(<article className="entry">
 
 //                 <div className="entry-img">
-//                   <img src={s4} alt="" className="img-fluid" />
+//                   <img  src={s4} alt="" className="img-fluid" />
 //                 </div>
 
 //                 <h3><span className="stretched-link"> {langType? "QnA":'Spørsmål og svar (Q&A)'}</span></h3>
@@ -190,7 +190,7 @@
 //               {serv===5&&(<article className="entry">
 
 //                 <div className="entry-img">
-//                   <img src={s5} alt="" className="img-fluid" />
+//                   <img  src={s5} alt="" className="img-fluid" />
 //                 </div>
 
 //                 <h3><span className="stretched-link">Chatbot</span></h3>
@@ -221,7 +221,7 @@
 //               {serv===6&&(<article className="entry">
 
 //                 <div className="entry-img">
-//                   <img src={s6} alt="" className="img-fluid" />
+//                   <img  src={s6} alt="" className="img-fluid" />
 //                 </div>
 
 //                 <h3><span className="stretched-link">{langType? "Case Prep":'Saksforberedelse'}</span></h3>
@@ -254,7 +254,7 @@
 //               {serv===7&&(<article className="entry">
 
 //                 <div className="entry-img">
-//                   <img src={s7} alt="" className="img-fluid" />
+//                   <img  src={s7} alt="" className="img-fluid" />
 //                 </div>
 
 //                 <h3><span className="stretched-link">{langType? "Judgment Analyzer":'Domanalyse'}</span></h3>
@@ -365,7 +365,7 @@ function Services(props) {
               {serv===1&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img src={s1} alt="" className="img-fluid" />
+                  <img  src={s1} alt="" className="img-fluid" />
                 </div>
 
                 {/* <h2 className="entry-title">
@@ -396,7 +396,7 @@ function Services(props) {
               {serv===2&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img src={s2} alt="" className="img-fluid" />
+                  <img  src={s2} alt="" className="img-fluid" />
                 </div>
 
                 {/* <h2 className="entry-title">
@@ -430,7 +430,7 @@ function Services(props) {
               {serv===3&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img src={s3} alt="" className="img-fluid" />
+                  <img  src={s3} alt="" className="img-fluid" />
                 </div>
 
                 <h3><span className="stretched-link">{langType? 'Case Explorer':'Saksoversikt'}</span></h3>
@@ -461,7 +461,7 @@ function Services(props) {
               {serv===4&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img src={s4} alt="" className="img-fluid" />
+                  <img  src={s4} alt="" className="img-fluid" />
                 </div>
 
                 <h3><span className="stretched-link"> {langType? "QnA":'Spørsmål og svar (Q&A)'}</span></h3>
@@ -491,7 +491,7 @@ function Services(props) {
               {serv===5&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img src={s5} alt="" className="img-fluid" />
+                  <img  src={s5} alt="" className="img-fluid" />
                 </div>
 
                 <h3><span className="stretched-link">Chatbot</span></h3>
@@ -522,7 +522,7 @@ function Services(props) {
               {serv===6&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img src={s6} alt="" className="img-fluid" />
+                  <img  src={s6} alt="" className="img-fluid" />
                 </div>
 
                 <h3><span className="stretched-link">{langType? "Case Prep":'Saksforberedelse'}</span></h3>
@@ -555,7 +555,7 @@ function Services(props) {
               {serv===7&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img src={s7} alt="" className="img-fluid" />
+                  <img  src={s7} alt="" className="img-fluid" />
                 </div>
 
                 <h3><span className="stretched-link">{langType? "Judgment Analyzer":'Domanalyse'}</span></h3>

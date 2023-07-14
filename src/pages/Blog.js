@@ -20,7 +20,7 @@
 //                         <div className="col-lg-4 col-md-6"  >
 //                             <div className="card">
 //                                 <div className="card-img">
-//                                     <img src={b1} alt="" className="img-fluid" />
+//                                     <img  src={b1} alt="" className="img-fluid" />
 //                                 </div>
 //                                 <h3><span className="stretched-link">{langType?"Advanced Analysis":'Avansert analyse'}</span></h3>
 //                                 <p>{langType?"LegalMatch utilizes state-of-the-art language models and natural language processing to analyze the details of your case, extracting key information and understanding its nuances":"LegalMatch bruker toppmoderne språkmodeller og naturlig språkbehandling for å analysere detaljene i saken din, ekstrahere viktig informasjon og forstå dens nyanser."}.
@@ -33,7 +33,7 @@
 //                         <div className="col-lg-4 col-md-6"  >
 //                             <div className="card">
 //                                 <div className="card-img">
-//                                     <img src={b1} alt="" className="img-fluid" />
+//                                     <img  src={b1} alt="" className="img-fluid" />
 //                                 </div>
 //                                 <h3><span className="stretched-link">{langType?"Advanced Analysis":'Avansert analyse'}</span></h3>
 //                                 <p>{langType?"LegalMatch utilizes state-of-the-art language models and natural language processing to analyze the details of your case, extracting key information and understanding its nuances":"LegalMatch bruker toppmoderne språkmodeller og naturlig språkbehandling for å analysere detaljene i saken din, ekstrahere viktig informasjon og forstå dens nyanser."}.
@@ -44,7 +44,7 @@
 //                         <div className="col-lg-4 col-md-6" >
 //                             <div className="card">
 //                                 <div className="card-img">
-//                                     <img src={b1} alt="" className="img-fluid" />
+//                                     <img  src={b1} alt="" className="img-fluid" />
 //                                 </div>
 //                                 <h3><span className="stretched-link">{langType?"Advanced Analysis":'Avansert analyse'}</span></h3>
 //                                 <p>{langType?"LegalMatch utilizes state-of-the-art language models and natural language processing to analyze the details of your case, extracting key information and understanding its nuances":"LegalMatch bruker toppmoderne språkmodeller og naturlig språkbehandling for å analysere detaljene i saken din, ekstrahere viktig informasjon og forstå dens nyanser."}.
@@ -95,7 +95,7 @@ function Blog(props) {
                         <div className="col-lg-4 col-md-6"  >
                             <div className="card">
                                 <div className="card-img">
-                                    <img src={b1} alt="" className="img-fluid" />
+                                    <img  src={b1} alt="" className="img-fluid" />
                                 </div>
                                 <h3><span className="stretched-link">{langType?"Advanced Analysis":'Avansert analyse'}</span></h3>
                                 <p>{langType?"LegalMatch utilizes state-of-the-art language models and natural language processing to analyze the details of your case, extracting key information and understanding its nuances":"LegalMatch bruker toppmoderne språkmodeller og naturlig språkbehandling for å analysere detaljene i saken din, ekstrahere viktig informasjon og forstå dens nyanser."}.
@@ -108,7 +108,7 @@ function Blog(props) {
                         <div className="col-lg-4 col-md-6"  >
                             <div className="card">
                                 <div className="card-img">
-                                    <img src={b1} alt="" className="img-fluid" />
+                                    <img  src={b1} alt="" className="img-fluid" />
                                 </div>
                                 <h3><span className="stretched-link">{langType?"Advanced Analysis":'Avansert analyse'}</span></h3>
                                 <p>{langType?"LegalMatch utilizes state-of-the-art language models and natural language processing to analyze the details of your case, extracting key information and understanding its nuances":"LegalMatch bruker toppmoderne språkmodeller og naturlig språkbehandling for å analysere detaljene i saken din, ekstrahere viktig informasjon og forstå dens nyanser."}.
@@ -119,7 +119,7 @@ function Blog(props) {
                         <div className="col-lg-4 col-md-6" >
                             <div className="card">
                                 <div className="card-img">
-                                    <img src={b1} alt="" className="img-fluid" />
+                                    <img  src={b1} alt="" className="img-fluid" />
                                 </div>
                                 <h3><span className="stretched-link">{langType?"Advanced Analysis":'Avansert analyse'}</span></h3>
                                 <p>{langType?"LegalMatch utilizes state-of-the-art language models and natural language processing to analyze the details of your case, extracting key information and understanding its nuances":"LegalMatch bruker toppmoderne språkmodeller og naturlig språkbehandling for å analysere detaljene i saken din, ekstrahere viktig informasjon og forstå dens nyanser."}.

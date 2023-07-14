@@ -76,8 +76,8 @@ function Navbar(props) {
 
       <Link to="/" className="NavbarLogo">
        
-       {/* <img src={logoOfWebsite} alt=""/><span className="webLogoName">LegalMatch</span> */}
-      <span className="webLogoName"> <img src={lg} alt=""/></span>
+       {/* <img  src={logoOfWebsite} alt=""/><span className="webLogoName">LegalMatch</span> */}
+      <span className="webLogoName"> <img  src={lg} alt=""/></span>
      
       </Link>
 
@@ -85,15 +85,15 @@ function Navbar(props) {
      {!mobclick &&( <i className="mobile-nav-toggle mobile-nav-show  bi bi-x" onClick={tooglemobClick}></i>)}
       <nav id="navbar" className={!mobclick? "navbar navmobb":"navbar"}>
         <ul>
-          <li><Link to="/" className={activeNavbar==="Home"?"activeNavbar x":" x"} onClick={homeClicked}>{langType?`Home`:'Hjemme'} <img className='arrowup' src={uparr} /></Link></li>
-          <li><Link to="/about" className={activeNavbar==="About"?"activeNavbar x":"x"} onClick={aboutClicked}>{langType?`About`:'Om oss'}<img className='arrowup' src={uparr} /></Link></li>
-          <li><Link to="/services" className={activeNavbar==="Services"?"activeNavbar x":"x"} onClick={servicesClicked}>{langType?`Services`:'Tjenester'}<img className='arrowup' src={uparr} /></Link></li>
-          <li><Link to="/pricing" className={activeNavbar==="Pricing"?"activeNavbar x":"x"} onClick={pricingClicked}>{langType?`Pricing`:'Priser'}<img className='arrowup' src={uparr} /></Link></li>
-          <li><Link to="/blog" className={activeNavbar==="Blog"?"activeNavbar x":"x"} onClick={blogClicked}>{langType?`Blog`:'Blogg'}<img className='arrowup' src={uparr} /></Link></li>
+          <li><Link to="/" className={activeNavbar==="Home"?"activeNavbar x":" x"} onClick={homeClicked}>{langType?`Home`:'Hjemme'} <img  className='arrowup' src={uparr} /></Link></li>
+          <li><Link to="/about" className={activeNavbar==="About"?"activeNavbar x":"x"} onClick={aboutClicked}>{langType?`About`:'Om oss'}<img  className='arrowup' src={uparr} /></Link></li>
+          <li><Link to="/services" className={activeNavbar==="Services"?"activeNavbar x":"x"} onClick={servicesClicked}>{langType?`Services`:'Tjenester'}<img  className='arrowup' src={uparr} /></Link></li>
+          <li><Link to="/pricing" className={activeNavbar==="Pricing"?"activeNavbar x":"x"} onClick={pricingClicked}>{langType?`Pricing`:'Priser'}<img  className='arrowup' src={uparr} /></Link></li>
+          <li><Link to="/blog" className={activeNavbar==="Blog"?"activeNavbar x":"x"} onClick={blogClicked}>{langType?`Blog`:'Blogg'}<img  className='arrowup' src={uparr} /></Link></li>
         
           
-          <li><Link to="/contact" className={activeNavbar==="Contact"?"activeNavbar x":"x"} onClick={contactClicked}>{langType?`Contact`:'Kontakt'}<img className='arrowup' src={uparr} /></Link></li>
-          <li><Link className=" langcol"  onClick={hnadlelangChange}> {!langType?<><img className='engImg' src={eng} /> <span className='wor'>English</span></>:<><img className='engImg' src={nfla} /><span className='wor'>Norwegian</span></>}</Link></li>
+          <li><Link to="/contact" className={activeNavbar==="Contact"?"activeNavbar x":"x"} onClick={contactClicked}>{langType?`Contact`:'Kontakt'}<img  className='arrowup' src={uparr} /></Link></li>
+          <li><Link className=" langcol"  onClick={hnadlelangChange}> {!langType?<><img  className='engImg' src={eng} /> <span className='wor'>English</span></>:<><img  className='engImg' src={nfla} /><span className='wor'>Norwegian</span></>}</Link></li>
          
         </ul>
       </nav>
@@ -101,7 +101,7 @@ function Navbar(props) {
      
     </div>
   </header>
-  {/* <span > <img src={lg1} alt=""/></span> */}
+  {/* <span > <img  src={lg1} alt=""/></span> */}
  
     </>
   )

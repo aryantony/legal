@@ -21,7 +21,7 @@
 //               </div>
 //             </div>
 //             <div className="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-//               <img src={AboutImage} className="img-fluid" alt="" />
+//               <img  src={AboutImage} className="img-fluid" alt="" />
 //             </div>
 //           </div>
 //         </div>
@@ -41,7 +41,7 @@
 //             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
 //               <div className="card">
 //                 <div className="card-img">
-//                   <img src={about1} alt="" className="img-fluid" />
+//                   <img  src={about1} alt="" className="img-fluid" />
 //                 </div>
 //                 <h3><span className="stretched-link">{langType? 'Simplifying Legal Research':'Forenkling av juridisk forskning'}</span></h3>
 //                 <p>{langType? 'LegalMatch is dedicated to simplifying the legal research process for legal professionals. We understand the challenges they face in finding accurate and relevant legal information efficiently.':'LegalMatch er dedikert til å forenkle juridisk rettskilde for alle som arbeider med juss. Vi forstår utfordringene de står overfor med å finne nøyaktig og relevant juridisk informasjon effektivt.'}</p>
@@ -53,7 +53,7 @@
 //             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
 //               <div className="card">
 //                 <div className="card-img">
-//                   <img src={about2} alt="" className="img-fluid" />
+//                   <img  src={about2} alt="" className="img-fluid" />
 //                 </div>
 //                 <h3><span className="stretched-link">{langType? 'AI-Powered Innovation':'AI-drevet innovasjon'}</span></h3>
 //                 <p> {langType? "Our cutting-edge platform harnesses the power of advanced AI technology to provide comprehensive legal information at professionals' fingertips. We've assembled a team of legal and technology experts who share a vision fortransforming the legal industry.":'Vår avanserte plattform utnytter kraften til avansert AI-teknologi for å tilby omfattende juridisk informasjon. Vi har samlet et team av jusskyndige og teknologi-eksperter som deler en visjon om å skape morgendagens løsninger for jurister.'}
@@ -66,7 +66,7 @@
 //             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
 //               <div className="card">
 //                 <div className="card-img">
-//                   <img src={about3} alt="" className="img-fluid" />
+//                   <img  src={about3} alt="" className="img-fluid" />
 //                 </div>
 //                 <h3><span className="stretched-link">{langType? 'Empowering Legal Professionals':'Styrking av juridiske fagfolk'}</span></h3>
 //                 <p>{langType? 'At LegalMatch, we empower legal professionals to excel in their roles. Through our user-friendly platform and intuitive AI capabilities, we enable professionals to make well-informed decisions and deliver exceptional outcomes for their clients.':'I LegalMatch gir vi juridiske fagfolk verktøyene de trenger for å utmerke seg i sine roller. Gjennom vår brukervennlige plattform og intuitive AI-funksjoner muliggjør vi at fagfolk kan ta velinformerte beslutninger og levere enestående resultater for sine klienter.'}</p>
@@ -308,12 +308,20 @@
 
 // export default About
 
-import React from 'react'
+import React ,{useState} from 'react'
 import about1 from "../assets/img/SIMPLIFYING LEGAL RESEARCH.jpg";
 import about2 from "../assets/img/AI-POWERED INNOVATION.jpg"
 import about3 from "../assets/img/EMPOWERING LEGAL PROFESSIONALS.jpg"
 import AboutImage from "../assets/img/legal intelligence.jpg"
+import Loader from '../components/Loader';
+
 function About(props) {
+  const [isLoading,setIsLoading]=useState(true);
+
+const handleImageLoad=() => {
+  setIsLoading(false);
+};
+
   const {langType,setLangType}=props;
   return (
     <>
@@ -331,7 +339,10 @@ function About(props) {
               </div>
             </div>
             <div className="col-lg-6 hero-img"  >
-              <img src={AboutImage} className="img-fluid" alt="" />
+              <img  src={AboutImage} className="img-fluid" alt=""  onLoad={handleImageLoad}
+               style={{ display: isLoading ? 'none' : 'block' }} />
+               {isLoading&&<div style={{display:"flex",justifyContent:"center",alignItems:"center"}}><Loader/></div>}
+
             </div>
           </div>
         </div>
@@ -351,7 +362,7 @@ function About(props) {
             <div className="col-lg-4 col-md-6"  >
               <div className="card">
                 <div className="card-img">
-                  <img src={about1} alt="" className="img-fluid" />
+                  <img  src={about1} alt="" className="img-fluid" />
                 </div>
                 <h3><span className="stretched-link">{langType? 'Simplifying Legal Research':'Forenkling av juridisk forskning'}</span></h3>
                 <p>{langType? 'LegalMatch is dedicated to simplifying the legal research process for legal professionals. We understand the challenges they face in finding accurate and relevant legal information efficiently.':'LegalMatch er dedikert til å forenkle juridisk rettskilde for alle som arbeider med juss. Vi forstår utfordringene de står overfor med å finne nøyaktig og relevant juridisk informasjon effektivt.'}</p>
@@ -363,7 +374,7 @@ function About(props) {
             <div className="col-lg-4 col-md-6"  >
               <div className="card">
                 <div className="card-img">
-                  <img src={about2} alt="" className="img-fluid abt2" />
+                  <img  src={about2} alt="" className="img-fluid abt2" />
                 </div>
                 <h3><span className="stretched-link">{langType? 'AI-Powered Innovation':'AI-drevet innovasjon'}</span></h3>
                 <p> {langType? "Our cutting-edge platform harnesses the power of advanced AI technology to provide comprehensive legal information at professionals' fingertips. We've assembled a team of legal and technology experts who share a vision fortransforming the legal industry.":'Vår avanserte plattform utnytter kraften til avansert AI-teknologi for å tilby omfattende juridisk informasjon. Vi har samlet et team av jusskyndige og teknologi-eksperter som deler en visjon om å skape morgendagens løsninger for jurister.'}
@@ -376,7 +387,7 @@ function About(props) {
             <div className="col-lg-4 col-md-6"  >
               <div className="card">
                 <div className="card-img">
-                  <img src={about3} alt="" className="img-fluid" />
+                  <img  src={about3} alt="" className="img-fluid" />
                 </div>
                 <h3><span className="stretched-link">{langType? 'Empowering Legal Professionals':'Styrking av juridiske fagfolk'}</span></h3>
                 <p>{langType? 'At LegalMatch, we empower legal professionals to excel in their roles. Through our user-friendly platform and intuitive AI capabilities, we enable professionals to make well-informed decisions and deliver exceptional outcomes for their clients.':'I LegalMatch gir vi juridiske fagfolk verktøyene de trenger for å utmerke seg i sine roller. Gjennom vår brukervennlige plattform og intuitive AI-funksjoner muliggjør vi at fagfolk kan ta velinformerte beslutninger og levere enestående resultater for sine klienter.'}</p>
