@@ -309,9 +309,9 @@
 // export default About
 
 import React from 'react'
-import about1 from "../assets/img/abResearch.jpg";
-import about2 from "../assets/img/abAI.jpg"
-import about3 from "../assets/img/abProfes.jpg"
+import about1 from "../assets/img/SIMPLIFYING LEGAL RESEARCH.jpg";
+import about2 from "../assets/img/AI-POWERED INNOVATION.jpg"
+import about3 from "../assets/img/EMPOWERING LEGAL PROFESSIONALS.jpg"
 import AboutImage from "../assets/img/aboutFront.jpg"
 function About(props) {
   const {langType,setLangType}=props;
@@ -363,7 +363,7 @@ function About(props) {
             <div className="col-lg-4 col-md-6"  >
               <div className="card">
                 <div className="card-img">
-                  <img src={about2} alt="" className="img-fluid" />
+                  <img src={about2} alt="" className="img-fluid abt2" />
                 </div>
                 <h3><span className="stretched-link">{langType? 'AI-Powered Innovation':'AI-drevet innovasjon'}</span></h3>
                 <p> {langType? "Our cutting-edge platform harnesses the power of advanced AI technology to provide comprehensive legal information at professionals' fingertips. We've assembled a team of legal and technology experts who share a vision fortransforming the legal industry.":'Vår avanserte plattform utnytter kraften til avansert AI-teknologi for å tilby omfattende juridisk informasjon. Vi har samlet et team av jusskyndige og teknologi-eksperter som deler en visjon om å skape morgendagens løsninger for jurister.'}

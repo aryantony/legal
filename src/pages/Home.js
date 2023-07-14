@@ -171,7 +171,8 @@
 
 
 import React from 'react'
-import HomeImage from "../assets/img/pexels-marek-levak-2265482.jpg"
+// import HomeImage from "../assets/img/pexels-marek-levak-2265482.jpg"
+import HomeImage from "../assets/img/girl-coding-interactive-screen.jpg"
 import serv1 from "../assets/img/ACCURACY AND RELIABILITY.jpg"
 import serv2 from "../assets/img/ETHICAL AND TRANSPARENT.jpg";
 import serv3 from "../assets/img/EFFICIENCY AND TIMESAVING.jpg"
@@ -200,7 +201,7 @@ function Home(props) {
               </div>
             </div>
             <div className="col-lg-6 hero-img" >
-              <img src={HomeImage} className="img-fluid" alt="" />
+              <img src={HomeImage} className="img-fluid homeimjh" alt="" />
             </div>
           </div>
         </div>

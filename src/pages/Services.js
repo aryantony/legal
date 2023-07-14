@@ -300,14 +300,14 @@
 
 
 import React , {useState} from 'react'
-import s1 from "../assets/img/s1.jpg";
-import s2 from "../assets/img/s2.jpg";
-import s3 from "../assets/img/s3.jpg";
-import s4 from "../assets/img/s4.png";
-import s5 from "../assets/img/s5.png";
+import s1 from "../assets/img/Law Finder.jpg";
+import s2 from "../assets/img/Segmentor.jpg";
+import s3 from "../assets/img/Case expolrer.jpg";
+import s4 from "../assets/img/QNA.jpg";
+import s5 from "../assets/img/Chatbot.jpg";
 
-import s6 from "../assets/img/s6.jpg";
-import s7 from "../assets/img/s7.jpg";
+import s6 from "../assets/img/Case prep.jpg";
+import s7 from "../assets/img/Judgment Analyzer.jpg";
 function Services(props) {
   const {langType,setLangType}=props;
   const [serv,setserv]=useState(1);
