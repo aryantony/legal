@@ -312,7 +312,7 @@ import React from 'react'
 import about1 from "../assets/img/SIMPLIFYING LEGAL RESEARCH.jpg";
 import about2 from "../assets/img/AI-POWERED INNOVATION.jpg"
 import about3 from "../assets/img/EMPOWERING LEGAL PROFESSIONALS.jpg"
-import AboutImage from "../assets/img/aboutFront.jpg"
+import AboutImage from "../assets/img/legal intelligence.jpg"
 function About(props) {
   const {langType,setLangType}=props;
   return (

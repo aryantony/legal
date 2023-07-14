@@ -1,8 +1,8 @@
 import React, {useState,useEffect} from 'react'
 import { Link ,Navigate, useNavigate} from 'react-router-dom'
 import logoOfWebsite from "../assets/img/logoweb.jpg";
-import lg from "../assets/img/LegalMatch-1 (1)_adobe_express.jpg"
-// import lg from "../assets/img/lmlogo1.jpg"
+import lg1 from "../assets/img/LegalMatch-1 (1)_adobe_express.jpg"
+import lg from "../assets/img/LegalMlogo (1).jpg"
 import eng from "../assets/img/eng.jpg"
 import nfla from "../assets/img/nfla.jpg"
 import uparr from "../assets/img/uparr.svg"
@@ -78,7 +78,7 @@ function Navbar(props) {
        
        {/* <img src={logoOfWebsite} alt=""/><span className="webLogoName">LegalMatch</span> */}
       <span className="webLogoName"> <img src={lg} alt=""/></span>
-      
+     
       </Link>
 
      {mobclick &&( <i className="mobile-nav-toggle mobile-nav-show bi bi-list" onClick={tooglemobClick}></i>)}
@@ -101,7 +101,7 @@ function Navbar(props) {
      
     </div>
   </header>
-
+  {/* <span > <img src={lg1} alt=""/></span> */}
  
     </>
   )

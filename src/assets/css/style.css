@@ -759,8 +759,10 @@ position: unset!important;
 
       .NavbarLogo img {
         position: absolute;
-        left: -44px;
+        /* left: -44px; */
+        left: -29px;
         top: -38px;
+        /* top: -34px; */
         width: 222px;
         height: 97px;
         z-index: 0;

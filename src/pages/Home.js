@@ -214,63 +214,7 @@ technology empowers you to find applicable laws and access summaries of relevant
 Supreme Court judgments with ease and efficiency </p>
     
 </section> */}
-      <section id="service" className="services pt-0">
-        <div className="container" >
-
-          <div className="section-header">
-            {/* <span>{langType? 'What We b Value':'Det vi verdsetter'}</span> */}
-            <h2>{langType? 'What We Value':'Det vi verdsetter'}</h2>
-            <p className='ValueinHomePage'>{langType? "All our actions are rooted in our core values":'Alle våre handlinger har sine røtter i våre kjerneverdier'}</p>
-          </div>
-
-          <div className="row gy-4">
-
-            <div className="col-lg-4 col-md-6"  >
-              <div className="card">
-                <div className="card-img">
-                  <img src={serv1} alt="" className="img-fluid" />
-                </div>
-                <h3><span className="stretched-link">{langType? 'Accuracy and Reliability':'Nøyaktighet og pålitelighet'}</span></h3>
-                <p>{langType? 'We are committed to providing accurate and reliable legal information. Our rigorous processes, data sources, and quality control measures ensure that users can trust the information they find on our platform.':'Vi tilbyr nøyaktig og pålitelig oppsummering av ulike rettskilder. Våre rutiner fordatakilder og kvalitetskontroll sikrer at brukerne kan ha tillit til informasjonen de finnerpå vår plattform.'}</p>
-              </div>
-            </div>
-            {/* <!-- End Card Item --> */}
-
-
-            <div className="col-lg-4 col-md-6"  >
-              <div className="card">
-                <div className="card-img">
-                  <img src={serv2} alt="" className="img-fluid serv2" />
-                </div>
-                <h3><span className="stretched-link">{langType?'Ethical and Transparent':'Effektivitet og tidsbesparelse'}</span></h3>
-                <p>{langType?' We uphold ethical standards and transparency in our products and services. We ensure that our data sources, algorithms, and processes are transparent, and we handle user data with utmost care and in compliance with privacy and security regulations.':'Våre produkter er designet for å effektivisere rettskildesøk, slik at brukerne raskt ogeffektivt kan finne den informasjonen de trenger, og dermed spare verdifull tid oginnsats.'}</p>
-              </div>
-            </div>
-            {/* <!-- End Card Item --> */}
-
-
-            <div className="col-lg-4 col-md-6"  >
-              <div className="card">
-                <div className="card-img">
-                  <img src={serv3} alt="" className="img-fluid serv3" />
-                </div>
-                <h3><span className="stretched-link">{langType?'Efficiency and Time-Saving':'Etiske og gjennomsiktige'}</span></h3>
-                <p>{langType?'We understand the importance of time for legal professionals and individuals dealing with legal matters. Our products are designed to streamline the legal research process, enabling users to find the information they need quickly and efficiently, saving them valuable time and effort.':'Vi er dedikerte til å ivareta etiske standarder og åpenhet i våre produkter og tjenester. Visørger for at våre datakilder, algoritmer og prosesser er transparente, og vi behandler brukerdata med største forsiktighet og i samsvar med personvern- og sikkerhetsregler.'}</p>
-              </div>
-            </div>
-            {/* <!-- End Card Item --> */}
-
-
-
-
-
-
-
-
-          </div>
-
-        </div>
-      </section>
+    
 
 
 
@@ -319,6 +263,63 @@ Supreme Court judgments with ease and efficiency </p>
                 </div>
                 <h3><span className="stretched-link">{langType?'Time-Saving Efficiency':'Tidsbesparende effektivitet:'}</span></h3>
                 <p>{langType?'By automating the research process, LegalMatch significantly reduces the time spent on manual research, providing quick and efficient access to the legal information you need, including summaries of relevant Supreme Court judgments':'Ved å automatisere rettskildesøk sparer LegalMatch tid og gir rask og effektiv tilgang til den juridiske informasjonen du trenger, inkludert sammendrag av relevante rettskilder.'}.</p>
+              </div>
+            </div>
+            {/* <!-- End Card Item --> */}
+
+
+
+
+
+
+
+
+          </div>
+
+        </div>
+      </section>
+      <section id="service" className="services pt-0">
+        <div className="container" >
+
+          <div className="section-header">
+            {/* <span>{langType? 'What We b Value':'Det vi verdsetter'}</span> */}
+            <h2>{langType? 'What We Value':'Det vi verdsetter'}</h2>
+            <p className='ValueinHomePage'>{langType? "All our actions are rooted in our core values":'Alle våre handlinger har sine røtter i våre kjerneverdier'}</p>
+          </div>
+
+          <div className="row gy-4">
+
+            <div className="col-lg-4 col-md-6"  >
+              <div className="card">
+                <div className="card-img">
+                  <img src={serv1} alt="" className="img-fluid" />
+                </div>
+                <h3><span className="stretched-link">{langType? 'Accuracy and Reliability':'Nøyaktighet og pålitelighet'}</span></h3>
+                <p>{langType? 'We are committed to providing accurate and reliable legal information. Our rigorous processes, data sources, and quality control measures ensure that users can trust the information they find on our platform.':'Vi tilbyr nøyaktig og pålitelig oppsummering av ulike rettskilder. Våre rutiner fordatakilder og kvalitetskontroll sikrer at brukerne kan ha tillit til informasjonen de finnerpå vår plattform.'}</p>
+              </div>
+            </div>
+            {/* <!-- End Card Item --> */}
+
+
+            <div className="col-lg-4 col-md-6"  >
+              <div className="card">
+                <div className="card-img">
+                  <img src={serv2} alt="" className="img-fluid serv2" />
+                </div>
+                <h3><span className="stretched-link">{langType?'Ethical and Transparent':'Effektivitet og tidsbesparelse'}</span></h3>
+                <p>{langType?' We uphold ethical standards and transparency in our products and services. We ensure that our data sources, algorithms, and processes are transparent, and we handle user data with utmost care and in compliance with privacy and security regulations.':'Våre produkter er designet for å effektivisere rettskildesøk, slik at brukerne raskt ogeffektivt kan finne den informasjonen de trenger, og dermed spare verdifull tid oginnsats.'}</p>
+              </div>
+            </div>
+            {/* <!-- End Card Item --> */}
+
+
+            <div className="col-lg-4 col-md-6"  >
+              <div className="card">
+                <div className="card-img">
+                  <img src={serv3} alt="" className="img-fluid serv3" />
+                </div>
+                <h3><span className="stretched-link">{langType?'Efficiency and Time-Saving':'Etiske og gjennomsiktige'}</span></h3>
+                <p>{langType?'We understand the importance of time for legal professionals and individuals dealing with legal matters. Our products are designed to streamline the legal research process, enabling users to find the information they need quickly and efficiently, saving them valuable time and effort.':'Vi er dedikerte til å ivareta etiske standarder og åpenhet i våre produkter og tjenester. Visørger for at våre datakilder, algoritmer og prosesser er transparente, og vi behandler brukerdata med største forsiktighet og i samsvar med personvern- og sikkerhetsregler.'}</p>
               </div>
             </div>
             {/* <!-- End Card Item --> */}
