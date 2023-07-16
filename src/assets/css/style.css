@@ -904,3 +904,15 @@ width: 317px;
     height: 353px;
     object-fit: cover;
   }
+  @media (min-width: 1100px) and (max-width: 1281px) {
+  .navbar ul{
+    width: 651px;
+  }
+  .langcol{
+    width: 156px;
+    height: 41.6px;
+  }
+  .xd{
+    width: 124px;
+  }
+}

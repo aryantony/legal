@@ -308,12 +308,49 @@ import s5 from "../assets/img/Chatbot.jpg";
 
 import s6 from "../assets/img/Case prep.jpg";
 import s7 from "../assets/img/Judgment Analyzer.jpg";
+import Loader from '../components/Loader';
 function Services(props) {
   const {langType,setLangType}=props;
   const [serv,setserv]=useState(1);
   const servClicl=(x)=>{
     setserv(x);
   }
+
+  const [isLoading,setIsLoading]=useState(true);
+
+  const handleImageLoad=() => {
+    setIsLoading(false);
+  };
+  const [isLoading1,setIsLoading1]=useState(true);
+
+  const handleImageLoad1=() => {
+    setIsLoading1(false);
+  };
+  const [isLoading2,setIsLoading2]=useState(true);
+
+  const handleImageLoad2=() => {
+    setIsLoading2(false);
+  };
+  const [isLoading3,setIsLoading3]=useState(true);
+
+  const handleImageLoad3=() => {
+    setIsLoading3(false);
+  };
+  const [isLoading4,setIsLoading4]=useState(true);
+
+  const handleImageLoad4=() => {
+    setIsLoading4(false);
+  };
+  const [isLoading5,setIsLoading5]=useState(true);
+
+  const handleImageLoad5=() => {
+    setIsLoading5(false);
+  };
+  const [isLoading6,setIsLoading6]=useState(true);
+
+  const handleImageLoad6=() => {
+    setIsLoading6(false);
+  };
   return (
     <>
 
@@ -365,7 +402,9 @@ function Services(props) {
               {serv===1&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img  src={s1} alt="" className="img-fluid" />
+                  <img  src={s1} alt="" className="img-fluid" onLoad={handleImageLoad}/>
+                  {isLoading&&<div style={{display:"flex",justifyContent:"center",alignItems:"center"}}><Loader/></div>}
+
                 </div>
 
                 {/* <h2 className="entry-title">
@@ -396,7 +435,8 @@ function Services(props) {
               {serv===2&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img  src={s2} alt="" className="img-fluid" />
+                  <img  src={s2} alt="" className="img-fluid" onLoad={handleImageLoad1}/>
+                  {isLoading1&&<div style={{display:"flex",justifyContent:"center",alignItems:"center"}}><Loader/></div>}
                 </div>
 
                 {/* <h2 className="entry-title">
@@ -430,7 +470,9 @@ function Services(props) {
               {serv===3&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img  src={s3} alt="" className="img-fluid" />
+                  <img  src={s3} alt="" className="img-fluid" onLoad={handleImageLoad2} />
+                  {isLoading2&&<div style={{display:"flex",justifyContent:"center",alignItems:"center"}}><Loader/></div>}
+              
                 </div>
 
                 <h3><span className="stretched-link">{langType? 'Case Explorer':'Saksoversikt'}</span></h3>
@@ -461,7 +503,9 @@ function Services(props) {
               {serv===4&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img  src={s4} alt="" className="img-fluid" />
+                  <img  src={s4} alt="" className="img-fluid" onLoad={handleImageLoad3} />
+                  {isLoading3&&<div style={{display:"flex",justifyContent:"center",alignItems:"center"}}><Loader/></div>}
+              
                 </div>
 
                 <h3><span className="stretched-link"> {langType? "QnA":'Spørsmål og svar (Q&A)'}</span></h3>
@@ -491,7 +535,9 @@ function Services(props) {
               {serv===5&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img  src={s5} alt="" className="img-fluid" />
+                  <img  src={s5} alt="" className="img-fluid" onLoad={handleImageLoad4} />
+                  {isLoading4&&<div style={{display:"flex",justifyContent:"center",alignItems:"center"}}><Loader/></div>}
+              
                 </div>
 
                 <h3><span className="stretched-link">Chatbot</span></h3>
@@ -522,7 +568,9 @@ function Services(props) {
               {serv===6&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img  src={s6} alt="" className="img-fluid" />
+                  <img  src={s6} alt="" className="img-fluid" onLoad={handleImageLoad5} />
+                  {isLoading5&&<div style={{display:"flex",justifyContent:"center",alignItems:"center"}}><Loader/></div>}
+              
                 </div>
 
                 <h3><span className="stretched-link">{langType? "Case Prep":'Saksforberedelse'}</span></h3>
@@ -555,7 +603,9 @@ function Services(props) {
               {serv===7&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img  src={s7} alt="" className="img-fluid" />
+                  <img  src={s7} alt="" className="img-fluid" onLoad={handleImageLoad6} />
+                  {isLoading6&&<div style={{display:"flex",justifyContent:"center",alignItems:"center"}}><Loader/></div>}
+              
                 </div>
 
                 <h3><span className="stretched-link">{langType? "Judgment Analyzer":'Domanalyse'}</span></h3>

@@ -12,7 +12,7 @@ function Navbar(props) {
     const {langType,setLangType}=props;
     const homeClicked=()=>{
         setActiveNavbar("Home");
-        if(window.innerWidth<1285)
+        if(window.innerWidth<1100)
         {
             setmobclick(!mobclick);
         }
@@ -20,42 +20,42 @@ function Navbar(props) {
     }
     const aboutClicked=()=>{
         setActiveNavbar("About");
-        if(window.innerWidth<1285)
+        if(window.innerWidth<1100)
         {
             setmobclick(!mobclick);
         }
     }
     const servicesClicked=()=>{
         setActiveNavbar("Services");
-        if(window.innerWidth<1285)
+        if(window.innerWidth<1100)
         {
             setmobclick(!mobclick);
         }
     }
     const pricingClicked=()=>{
         setActiveNavbar("Pricing");
-        if(window.innerWidth<1285)
+        if(window.innerWidth<1100)
         {
             setmobclick(!mobclick);
         }
     }
     const contactClicked=()=>{
         setActiveNavbar("Contact");
-        if(window.innerWidth<1285)
+        if(window.innerWidth<1100)
         {
             setmobclick(!mobclick);
         }
     }
     const blogClicked=()=>{
       setActiveNavbar("Blog");
-      if(window.innerWidth<1285)
+      if(window.innerWidth<1100)
         {
             setmobclick(!mobclick);
         }
   }
   const [mobclick,setmobclick]=useState(true);
   const tooglemobClick=()=>{
-    if(window.innerWidth<1285)
+    if(window.innerWidth<1100)
     {
         setmobclick(!mobclick);
     }
@@ -93,7 +93,7 @@ function Navbar(props) {
         
           
           <li><Link to="/contact" className={activeNavbar==="Contact"?"activeNavbar x":"x"} onClick={contactClicked}>{langType?`Contact`:'Kontakt'}<img  className='arrowup' src={uparr} /></Link></li>
-          <li><Link className=" langcol"  onClick={hnadlelangChange}> {!langType?<><img  className='engImg' src={eng} /> <span className='wor'>English</span></>:<><img  className='engImg' src={nfla} /><span className='wor'>Norwegian</span></>}</Link></li>
+          <li><Link className={langType?" langcol":"langcol xd"}  onClick={hnadlelangChange}> {!langType?<><img  className='engImg' src={eng} /> <span className='wor'>English</span></>:<><img  className='engImg' src={nfla} /><span className='wor'>Norwegian</span></>}</Link></li>
          
         </ul>
       </nav>
