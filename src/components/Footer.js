@@ -46,9 +46,9 @@ function Footer(props) {
                             <p>
                             Breiviksveien 115042 <br />
                                 {/* Vestland, NY 535022<br /> */}
-                                Norway <br /><br />
+                               Bergen Norway <br /><br />
                                 {/* +47 94826806 */}
-                                <strong>{langType?"Phone":'Telefoner'}:</strong> +4794826806<br />
+                                <strong>{langType?"Phone":'Telefoner'}:</strong> +47 94826806<br />
                                 <strong>{langType?"Email":'E-pos'}:</strong> company@legalmatch.no<br />
                             </p>
 

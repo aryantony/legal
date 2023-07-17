@@ -3,6 +3,7 @@ import { Link ,Navigate, useNavigate} from 'react-router-dom'
 import logoOfWebsite from "../assets/img/logoweb.jpg";
 import lg1 from "../assets/img/LegalMatch-1 (1)_adobe_express.jpg"
 import lg from "../assets/img/LegalMlogo (1).jpg"
+// import lg from "../assets/img/xl.jpeg"
 import eng from "../assets/img/eng.jpg"
 import nfla from "../assets/img/nfla.jpg"
 import uparr from "../assets/img/uparr.svg"

@@ -13,7 +13,7 @@ import Blog from "./pages/Blog";
 import Blogabt from "./pages/Blogabt";
 function App() {
  
-const [langType,setLangType]=useState(true);
+const [langType,setLangType]=useState(false);
 const statprop={langType,setLangType}
   return (
     <>
