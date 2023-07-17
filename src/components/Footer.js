@@ -15,9 +15,9 @@ function Footer(props) {
                             <p >{langType? `Experience the power of LegalMatch, the AI powered legal research platform that revolutionizes the way professional acess acurate and relevant legal information efficiently.`:`Opplev kraften til LegalMatch, den AI-drevne juridiske forskningsplattformen som revolusjonerer måten fagfolk får tilgang til nøyaktig og relevant juridisk informasjon på en effektiv måte.`} </p>
              
                             <div className="social-links d-flex mt-4">
-                                <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
+                                {/* <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
                                 <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-                                <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
+                                <a href="#" className="instagram"><i className="bi bi-instagram"></i></a> */}
                                 <a href="https://www.linkedin.com/company/cynotech-as" target='_blank' className="linkedin"><i className="bi bi-linkedin"></i></a>
                             </div>
                         </div>
@@ -44,10 +44,11 @@ function Footer(props) {
                         <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                             <h4>{langType?"Contact Us":"Kontakt Oss"}</h4>
                             <p>
-                                A-10 Adam Street <br />
-                                Vestland, NY 535022<br />
+                            Breiviksveien 115042 <br />
+                                {/* Vestland, NY 535022<br /> */}
                                 Norway <br /><br />
-                                <strong>{langType?"Phone":'Telefoner'}:</strong> +1 5589 55488 55<br />
+                                {/* +47 94826806 */}
+                                <strong>{langType?"Phone":'Telefoner'}:</strong> +4794826806<br />
                                 <strong>{langType?"Email":'E-pos'}:</strong> company@legalmatch.no<br />
                             </p>
 

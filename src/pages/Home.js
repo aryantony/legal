@@ -172,7 +172,7 @@
 
 import React,{useState} from 'react'
 // import HomeImage from "../assets/img/pexels-marek-levak-2265482.jpg"
-import HomeImage from "../assets/img/girl-coding-interactive-screen.jpg"
+import HomeImage from "../assets/img/g1.jpg"
 import serv1 from "../assets/img/ACCURACY AND RELIABILITY.jpg"
 import serv2 from "../assets/img/ETHICAL AND TRANSPARENT.jpg";
 import serv3 from "../assets/img/EFFICIENCY AND TIMESAVING.jpg"

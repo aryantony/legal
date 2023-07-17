@@ -470,7 +470,7 @@ function Services(props) {
               {serv===3&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img  src={s3} alt="" className="img-fluid" onLoad={handleImageLoad2} />
+                  <img  src={s3} alt="" className="img-fluid casprep" onLoad={handleImageLoad2} />
                   {isLoading2&&<div style={{display:"flex",justifyContent:"center",alignItems:"center"}}><Loader/></div>}
               
                 </div>
@@ -535,7 +535,7 @@ function Services(props) {
               {serv===5&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img  src={s5} alt="" className="img-fluid" onLoad={handleImageLoad4} />
+                  <img  src={s5} alt="" className="img-fluid casprep" onLoad={handleImageLoad4} />
                   {isLoading4&&<div style={{display:"flex",justifyContent:"center",alignItems:"center"}}><Loader/></div>}
               
                 </div>
@@ -568,7 +568,7 @@ function Services(props) {
               {serv===6&&(<article className="entry">
 
                 <div className="entry-img">
-                  <img  src={s6} alt="" className="img-fluid" onLoad={handleImageLoad5} />
+                  <img  src={s6} alt="" className="img-fluid casprep" onLoad={handleImageLoad5} />
                   {isLoading5&&<div style={{display:"flex",justifyContent:"center",alignItems:"center"}}><Loader/></div>}
               
                 </div>

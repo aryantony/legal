@@ -10,10 +10,12 @@
     color: black;
 }
 .navbar li a:hover{
-    color: red;
+    color: green;
+    font-weight: 600!important;
 }
 .activeNavbar{
-    color: green!important;
+  color: green!important;
+    font-weight: 600!important;
 }
 .hero{
     background-color: white;
@@ -29,7 +31,8 @@
 }
 .homeh2{
    
-    color: #6e7191!important;
+    /* color: #6e7191!important; */
+    color: #211f54!important;
 }
 .servicesButtonHomePage{
     border: 1px solid #a99595;
@@ -901,7 +904,7 @@ width: 317px;
     border-radius: 43px;
   }
   .abt2{
-    height: 353px;
+    /* height: 353px; */
     object-fit: cover;
   }
   @media (min-width: 1100px) and (max-width: 1281px) {
@@ -915,4 +918,17 @@ width: 317px;
   .xd{
     width: 124px;
   }
+}
+@media (min-width: 763px) {
+.casprep{
+ 
+    height: 372px;
+   width: 100vw;
+   object-fit: contain;
+}
+}
+.blogfic{
+  height: 300px!important;
+  object-fit: cover!important;
+  width: 100vw;
 }

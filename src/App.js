@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import Pricing from "./pages/Pricing";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import Blogabt from "./pages/Blogabt";
 function App() {
  
 const [langType,setLangType]=useState(true);
@@ -27,6 +28,7 @@ const statprop={langType,setLangType}
           <Route path='/pricing' element={<Pricing {...statprop}/>} />
           <Route path='/contact' element={<Contact {...statprop}/>} />
           <Route path='/blog' element={<Blog {...statprop}/>} />
+          <Route path='/blogabt' element={<Blogabt />} />
           <Route path='*' element={<Navigate to='/' />} />
         </Routes>
         </section>
