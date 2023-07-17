@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ff9dc68.css",
-    "main.js": "/static/js/main.d488cdb4.js",
+    "main.css": "/static/css/main.ff269772.css",
+    "main.js": "/static/js/main.fe14919b.js",
     "static/js/787.ec70eaa9.chunk.js": "/static/js/787.ec70eaa9.chunk.js",
-    "static/media/girl-coding-interactive-screen.jpg": "/static/media/girl-coding-interactive-screen.e2c5cb5210f077eecd32.jpg",
     "static/media/b3.jpg": "/static/media/b3.e15964f50022bace62d6.jpg",
+    "static/media/aboutFront.jpg": "/static/media/aboutFront.c3825b2192e328695f42.jpg",
     "static/media/TAILORED RESULTS.jpg": "/static/media/TAILORED RESULTS.90d8d3d7e85cb489d85b.jpg",
     "static/media/b1.jpg": "/static/media/b1.77306dd58a81c2fe4121.jpg",
-    "static/media/legal intelligence.jpg": "/static/media/legal intelligence.9e6e45f35a8e45076249.jpg",
     "static/media/EMPOWERING LEGAL PROFESSIONALS.jpg": "/static/media/EMPOWERING LEGAL PROFESSIONALS.a4c5e89f937876092587.jpg",
     "static/media/logoweb.jpg": "/static/media/logoweb.72c371c7ca4337c561fa.jpg",
     "static/media/Segmentor.jpg": "/static/media/Segmentor.94a312e4bc38bf366b1c.jpg",
+    "static/media/g1.jpg": "/static/media/g1.a0112f52e152bd17714a.jpg",
     "static/media/b2.jpg": "/static/media/b2.870de03f1ef86fce69cf.jpg",
-    "static/media/AI-POWERED INNOVATION.jpg": "/static/media/AI-POWERED INNOVATION.aaca0c395687e8d99cf9.jpg",
+    "static/media/aip.jpg": "/static/media/aip.fd0713c12c7d514bc4ff.jpg",
     "static/media/cta-bg.jpg": "/static/media/cta-bg.240b860f19c4b1e12004.jpg",
     "static/media/Judgment Analyzer.jpg": "/static/media/Judgment Analyzer.3703f2aedca9029d0036.jpg",
     "static/media/Law Finder.jpg": "/static/media/Law Finder.2f517c5b4d3b52d98f09.jpg",
@@ -33,12 +33,12 @@
     "static/media/pricing-business.png": "/static/media/pricing-business.6bb84a829a0adb27bda9.png",
     "index.html": "/index.html",
     "static/media/uparr.svg": "/static/media/uparr.6d2bfe4c5d59e8dc847ccc0de855099e.svg",
-    "main.3ff9dc68.css.map": "/static/css/main.3ff9dc68.css.map",
-    "main.d488cdb4.js.map": "/static/js/main.d488cdb4.js.map",
+    "main.ff269772.css.map": "/static/css/main.ff269772.css.map",
+    "main.fe14919b.js.map": "/static/js/main.fe14919b.js.map",
     "787.ec70eaa9.chunk.js.map": "/static/js/787.ec70eaa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ff9dc68.css",
-    "static/js/main.d488cdb4.js"
+    "static/css/main.ff269772.css",
+    "static/js/main.fe14919b.js"
   ]
 }
