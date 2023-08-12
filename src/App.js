@@ -14,7 +14,21 @@ import Blogabt from "./pages/Blogabt";
 function App() {
  
 const [langType,setLangType]=useState(false);
-const statprop={langType,setLangType}
+const statprop={langType,setLangType};
+const currentUrl = window.location.href;
+const urlObject = new URL(currentUrl);
+const baseUrl = urlObject.origin;
+
+
+useEffect(() => {
+  console.log(baseUrl," ")
+  console.log(currentUrl," ")
+  if (currentUrl === `${baseUrl}/#team`) {
+   
+    const aboutSection = document.getElementById("team");
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+  }
+}, [currentUrl, baseUrl]);
   return (
     <>
       <Router>

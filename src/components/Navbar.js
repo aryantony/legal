@@ -64,9 +64,20 @@ function Navbar(props) {
   const hnadlelangChange=()=>{
     setLangType(!langType)
   }
-    const currentUrl = window.location.href;
+  const currentUrl = window.location.href;
   const urlObject = new URL(currentUrl);
   const baseUrl = urlObject.origin;
+
+
+  useEffect(() => {
+    console.log(baseUrl," ")
+    console.log(currentUrl," ")
+    if (currentUrl === `${baseUrl}/#team`) {
+     
+      const aboutSection = document.getElementById("team");
+      aboutSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [currentUrl, baseUrl]);
 
 
   return (
@@ -92,7 +103,7 @@ function Navbar(props) {
           <li><Link to="/pricing" className={activeNavbar==="Pricing"?"activeNavbar x":"x"} onClick={pricingClicked}>{langType?`Pricing`:'Priser'}<img  className='arrowup' src={uparr} /></Link></li>
           <li><Link to="/blog" className={activeNavbar==="Blog"?"activeNavbar x":"x"} onClick={blogClicked}>{langType?`Blog`:'Blogg'}<img  className='arrowup' src={uparr} /></Link></li>
         
-          
+          <li><Link to="/#team" className={activeNavbar==="Home"?"activeNavbar x":"x"} onClick={homeClicked}>{langType?`Team`:'Lag'}<img  className='arrowup' src={uparr} /></Link></li>
           <li><Link to="/contact" className={activeNavbar==="Contact"?"activeNavbar x":"x"} onClick={contactClicked}>{langType?`Contact`:'Kontakt'}<img  className='arrowup' src={uparr} /></Link></li>
           <li><Link className={langType?" langcol":"langcol xd"}  onClick={hnadlelangChange}> {!langType?<><img  className='engImg' src={eng} /> <span className='wor'>English</span></>:<><img  className='engImg' src={nfla} /><span className='wor'>Norwegian</span></>}</Link></li>
          

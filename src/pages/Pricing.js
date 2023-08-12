@@ -57,7 +57,7 @@ function Pricing(props) {
               <h1 className='homeh1'>{langType?'Budget-friendly pricing options are available':'Budsjettvennlige priser er tilgjengelige'}</h1>
               <p className='homeh2'>{langType?'Kindly contact to the following to know more and colloborate':'Vennligst ta kontakt med følgende for å få mer informasjon og samarbeide.'}</p>
               <div  className='PricingContactColur'>
-              <strong>{langType?"Phone":"Telefon"}:</strong> +1 5589 55488 55<br />
+              <strong>{langType?"Phone":"Telefon"}:</strong> +47 94826806<br />
         <strong>{langType?"Email":"E-post"}:</strong> company@legalmatch.no<br />
               </div>
             </div>

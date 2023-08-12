@@ -932,3 +932,48 @@ width: 317px;
   object-fit: cover!important;
   width: 100vw;
 }
+.memname{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mn img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.xc img {
+  object-position: 0px 3px;
+}
+
+.xd img {
+  object-position: 0px -1px;
+}
+.mn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ggf img{
+  width: 40px!important;
+  height: 40px!important;
+}
+.pnm{
+  margin-top: 10px;
+  font-weight: bold;
+  color: #183c78;
+}
+@media (min-width: 0px) and (max-width: 650px) {
+  .memname{
+   flex-direction: column;
+  }
+  .mn{
+    margin-top: 23px;
+  }
+  #team{
+    padding: 0px;
+  }
+}

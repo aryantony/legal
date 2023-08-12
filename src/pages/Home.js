@@ -170,7 +170,7 @@
 
 
 
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 // import HomeImage from "../assets/img/pexels-marek-levak-2265482.jpg"
 import HomeImage from "../assets/img/g1.jpg"
 import serv1 from "../assets/img/ACCURACY AND RELIABILITY.jpg"
@@ -179,6 +179,10 @@ import serv3 from "../assets/img/EFFICIENCY AND TIMESAVING.jpg"
 import w1 from "../assets/img/ADVANCED ANALYSIS.jpg"
 import w2 from "../assets/img/TAILORED RESULTS.jpg"
 import w3 from "../assets/img/TIME-SAVING EFFICIENCY.jpg"
+import c1 from "../assets/img/cx.jpg"
+import c2 from "../assets/img/ax.jpg"
+import c3 from "../assets/img/bx.jpg"
+import lk from "../assets/img/lk.png"
 import {Link} from 'react-router-dom';
 import Loader from '../components/Loader';
 
@@ -190,6 +194,20 @@ function Home(props) {
   const handleImageLoad=() => {
     setIsLoading(false);
   };
+  const currentUrl = window.location.href;
+  const urlObject = new URL(currentUrl);
+  const baseUrl = urlObject.origin;
+
+
+  useEffect(() => {
+    console.log(baseUrl," ")
+    console.log(currentUrl," ")
+    if (currentUrl === `${baseUrl}/#team`) {
+     
+      const aboutSection = document.getElementById("team");
+      aboutSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [currentUrl, baseUrl]);
   return (
     <>
       <section id="hero" className="hero d-flex align-items-center">
@@ -209,10 +227,10 @@ function Home(props) {
               </div>
             </div>
             <div className="col-lg-6 hero-img" >
-              <img  src={HomeImage} className="img-fluid homeimjh" alt="" onLoad={handleImageLoad}
-               style={{ display: isLoading ? 'none' : 'block' }}/>
-     
-              {isLoading&&<div style={{display:"flex",justifyContent:"center",alignItems:"center"}}><Loader/></div>}
+              <img src={HomeImage} className="img-fluid homeimjh" alt="" onLoad={handleImageLoad}
+                style={{display: isLoading? 'none':'block'}} />
+
+              {isLoading&&<div style={{display: "flex",justifyContent: "center",alignItems: "center"}}><Loader /></div>}
 
             </div>
           </div>
@@ -246,7 +264,7 @@ Supreme Court judgments with ease and efficiency </p>
             <div className="col-lg-4 col-md-6"  >
               <div className="card">
                 <div className="card-img">
-                  <img  src={w1} alt="" className="img-fluid workhom" />
+                  <img src={w1} alt="" className="img-fluid workhom" />
                 </div>
                 <h3><span className="stretched-link">{langType? 'Advanced Analysis':'Avansert analyse'}</span></h3>
                 <p>{langType? 'LegalMatch utilizes state-of-the-art language models and natural language processing to analyze the details of your case, extracting key information and understanding its nuances.':'LegalMatch bruker avanserte språkmodeller og naturlig språkbehandling for åanalysere detaljene i saken din, trekke ut nøkkelinformasjon og forstå de ulikenyansene'} </p>
@@ -258,7 +276,7 @@ Supreme Court judgments with ease and efficiency </p>
             <div className="col-lg-4 col-md-6"  >
               <div className="card">
                 <div className="card-img">
-                  <img  src={w2} alt="" className="img-fluid workhom" />
+                  <img src={w2} alt="" className="img-fluid workhom" />
                 </div>
                 <h3><span className="stretched-link">{langType? 'Tailored Results':'Tilpassede resultater:'}</span></h3>
                 <p> {langType? 'Based on the analysis, LegalMatch generates a personalized list of applicable laws and regulations specific to your case, ensuring you have access to the most relevant legal information.':'Basert på analysen genererer LegalMatch en personlig liste over relevante loverog forskrifter som er relevante for saken din.'}
@@ -271,7 +289,7 @@ Supreme Court judgments with ease and efficiency </p>
             <div className="col-lg-4 col-md-6" >
               <div className="card">
                 <div className="card-img">
-                  <img  src={w3} alt="" className="img-fluid workhom" />
+                  <img src={w3} alt="" className="img-fluid workhom" />
                 </div>
                 <h3><span className="stretched-link">{langType? 'Time-Saving Efficiency':'Tidsbesparende effektivitet:'}</span></h3>
                 <p>{langType? 'By automating the research process, LegalMatch significantly reduces the time spent on manual research, providing quick and efficient access to the legal information you need, including summaries of relevant Supreme Court judgments':'Ved å automatisere rettskildesøk sparer LegalMatch tid og gir rask og effektiv tilgang til den juridiske informasjonen du trenger, inkludert sammendrag av relevante rettskilder.'}.</p>
@@ -304,7 +322,7 @@ Supreme Court judgments with ease and efficiency </p>
             <div className="col-lg-4 col-md-6"  >
               <div className="card">
                 <div className="card-img">
-                  <img  src={serv1} alt="" className="img-fluid" />
+                  <img src={serv1} alt="" className="img-fluid" />
                 </div>
                 <h3><span className="stretched-link">{langType? 'Accuracy and Reliability':'Nøyaktighet og pålitelighet'}</span></h3>
                 <p>{langType? 'We are committed to providing accurate and reliable legal information. Our rigorous processes, data sources, and quality control measures ensure that users can trust the information they find on our platform.':'Vi tilbyr nøyaktig og pålitelig oppsummering av ulike rettskilder. Våre rutiner fordatakilder og kvalitetskontroll sikrer at brukerne kan ha tillit til informasjonen de finnerpå vår plattform.'}</p>
@@ -316,7 +334,7 @@ Supreme Court judgments with ease and efficiency </p>
             <div className="col-lg-4 col-md-6"  >
               <div className="card">
                 <div className="card-img">
-                  <img  src={serv2} alt="" className="img-fluid serv2" />
+                  <img src={serv2} alt="" className="img-fluid serv2" />
                 </div>
                 <h3><span className="stretched-link">{langType? 'Ethical and Transparent':'Effektivitet og tidsbesparelse'}</span></h3>
                 <p>{langType? ' We uphold ethical standards and transparency in our products and services. We ensure that our data sources, algorithms, and processes are transparent, and we handle user data with utmost care and in compliance with privacy and security regulations.':'Våre produkter er designet for å effektivisere rettskildesøk, slik at brukerne raskt ogeffektivt kan finne den informasjonen de trenger, og dermed spare verdifull tid oginnsats.'}</p>
@@ -328,7 +346,7 @@ Supreme Court judgments with ease and efficiency </p>
             <div className="col-lg-4 col-md-6"  >
               <div className="card">
                 <div className="card-img">
-                  <img  src={serv3} alt="" className="img-fluid serv3" />
+                  <img src={serv3} alt="" className="img-fluid serv3" />
                 </div>
                 <h3><span className="stretched-link">{langType? 'Efficiency and Time-Saving':'Etiske og gjennomsiktige'}</span></h3>
                 <p>{langType? 'We understand the importance of time for legal professionals and individuals dealing with legal matters. Our products are designed to streamline the legal research process, enabling users to find the information they need quickly and efficiently, saving them valuable time and effort.':'Vi er dedikerte til å ivareta etiske standarder og åpenhet i våre produkter og tjenester. Visørger for at våre datakilder, algoritmer og prosesser er transparente, og vi behandler brukerdata med største forsiktighet og i samsvar med personvern- og sikkerhetsregler.'}</p>
@@ -345,6 +363,32 @@ Supreme Court judgments with ease and efficiency </p>
 
           </div>
 
+        </div>
+      </section>
+      <section id="team">
+        <div className="container" >
+
+          <div className="section-header">
+            {/* <span>{langType? 'What We b Value':'Det vi verdsetter'}</span> */}
+            <h2>{langType? 'Core Team':'Kjerneteam'}</h2>
+          </div>
+        </div>
+        <div className="memname">
+          <div className="mn xd">
+        <div> <img src={c1} alt="" /></div> 
+          <div className="pnm">Sondre</div>
+          <div className='ggf'> <a href='https://no.linkedin.com/in/sondre-brøste-strander-61360584' target='_blank'> <img src={lk} alt="" className="img-fluid" /> </a></div> 
+          </div>
+          <div className="mn xc">
+          <div>  <img src={c2} alt="" className="img-fluid" /> </div> 
+          <div className="pnm">Pankaj Sinha</div>
+          <div className='ggf'> <a href='https://www.linkedin.com/in/pankaj-sinha-0a191a129/' target='_blank'> <img src={lk} alt="" className="img-fluid" /> </a></div> 
+         </div>
+          <div className="mn">
+          <div>  <img src={c3} alt="" className="img-fluid" /> </div> 
+          <div className="pnm">Ayush Sacheti</div>
+          <div className='ggf'> <a href='https://www.linkedin.com/in/aayush-sacheti-238165141/' target='_blank'> <img src={lk} alt="" className="img-fluid" /> </a></div> 
+         </div>
         </div>
       </section>
     </>
